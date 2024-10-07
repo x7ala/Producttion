@@ -1,0 +1,395 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Customize the scrollbar container */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: hsl(232, 35%, 48%); /* Thumb color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+}
+
+.TT-Prod, .montserrat-ttprod, .Genel-abtus{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+.Genel-abtus{
+    margin-top: 5px;;
+}
+
+
+.prg{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.custom-line{
+    border: 0; 
+    height: 2px; 
+    background: #f8961d; 
+    margin: 20px 0; 
+}
+
+.overview-h2{
+    margin-left: 20px;
+}
+
+.overview-p{
+    font-size: 20px;
+}
+
+
+.second, .email{
+   color:black; 
+   background-color: hwb(183 74% 18%);
+}
+
+.email{
+    padding-top: 50px;
+}
+
+.comm{
+    margin-top: 45px;
+    margin-left: 400px;
+}
+
+  .num{
+    padding-left: 30px;
+  }
+
+
+.mrl-0{margin-left: 0!important;margin-right:0!important;}
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-color: #0a0a0a; /* Background color */
+    margin-bottom: 0; /* Remove any bottom margin */
+    padding: 0; /* Remove default padding */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    position: fixed;
+    z-index: 999;
+}
+
+/* Additional styling for nav links */
+.nav-link {
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #f8f9fa; /* Light color on hover */
+    background-color: #495057; /* Slightly darker background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Nav item styling */
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Space between items */
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+/* Brand logo positioning */
+.navbar-brand {
+    margin-right: auto; /* Pushes brand to the left */
+}
+
+.container {
+    margin-top: 80px; /* Adjust according to your navbar height */
+}
+
+/* Optional: Align the container to center */
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dropdown-menu {
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.nav-item.dropdown:hover .dropdown-menu{ 
+    display: block; /* menu appears on hovering */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Light background on hover */
+}
+
+footer {
+    background-color: #f8961d; /* Dark background color */
+    color: #f8f9fa; /* Light text color */
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #adb5bd; /* Light color on hover */
+}
+
+footer .fa-facebook {
+    color: #3b5998; /* Facebook color */
+}
+
+.anatolia{
+    text-decoration: underline;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 60%;
+    margin: 0 auto; /* Center the carousel horizontally */
+    border-radius: 0;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.carousel-inner {
+    border-radius: 0; /* Apply rounding to inner content if needed */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 70%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    text-align: center; /* Center text horizontally */
+    color: white; /* Ensure text color contrasts with the background */
+}
+
+.Carousel-titles{
+    font-size: 70px;
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    margin: 0; /* Remove default margins */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#footer {
+    color: #f8f9fa; /* Light text color */
+    padding: 1rem; /* Add padding */
+    text-align: center; /* Center text */
+    position: relative; /* Ensure it’s positioned correctly */
+    width: 100% !important;
+}
+
+
+
+.left-f{
+    text-align: left;
+}
+
+.right-f{
+    text-align: right;
+}
+
+
+.cs-kor {
+    width: 50%;       /* Adjust the width (can also use px, em, rem, etc.) */
+    height: auto;     /* Set the height (optional, or set a specific height) */
+    padding: 10px;    /* Adjust the padding to make the content fit better */
+    font-size: 14px;  /* Adjust the font size for smaller text */
+}
+
+.news-title{
+    text-align: center;
+}
+
+a.clickable-div {
+    text-decoration: none; /* Remove underline from the text inside */
+    color: inherit;
+  }
+  
+  a.clickable-div:hover .valentine {
+    cursor: pointer; /* Show pointer cursor on hover */
+    background-color: #f0f0f0; /* Optional: Change background color on hover */
+  }
+
+  #sila-14{
+    width: 150px;
+    height: 100px;
+  }
+
+  .copy-r{
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+
+  /* Ensure no gaps between the cards */
+.no-gutters {
+    margin: 0;
+}
+
+.no-gutters .col-md-6, .no-gutters .col-lg-3 {
+    padding: 0;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Image styles */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+    transition: filter 0.3s ease, transform 0.3s ease;
+   
+}
+
+
+
+/* Button styles */
+.card-body {
+    background-color: #ffffff;
+    padding: 15px 0px 0px 0px;
+}
+
+.card-body .btn {
+    background-color: #f8961d;
+    border: none;
+    width: 100%;
+    border-radius: 0;
+}
+
+.card-body .btn:hover {
+    background-color: #e07a3c;
+}
+
+.card-img {
+    max-width: 100%; /* Ensures the image scales with the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+
+
+.hizmet, .hizmet-p, .sistemler, .sistemler-p, .Sanatcilar, .sanatcilar-p{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.konserler, .festivaller, .mezuniyet, .kongre, .dugun{
+    object-fit: cover;
+    border-radius: 55%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.05);
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.konserler:hover, .festivaller:hover, .mezuniyet:hover, .kongre:hover, .dugun:hover {
+    transform: scale(1.1); /* Slightly increase the size */
+}
+
+/* Ensure images are round circles */
+.service-item img {
+    width: 100%; /* Make sure the image fits the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  /* Ensure the container of the image is circular and aligns with the image */
+  .service-item {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    margin: auto; /* Center-align the service item */
+    text-align: center; /* Center-align text */
+    display: flex; /* Use flexbox to center the content */
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  /* Animation effect */
+  .service-item:hover {
+    animation: float 3s ease-in-out infinite; /* Apply the float animation on hover */
+  }
+  
+  /* Define the float animation */
+  @keyframes float {
+    0% {
+      transform: translateY(0); /* Start from original position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up slightly */
+    }
+    100% {
+      transform: translateY(0); /* Return to original position */
+    }
+  }
+  
+ 
+  .navbar-toggler-icon {background-color: #fff;  }
+
+  footer a:hover {
+    color: #fff;
+}
+.all-button{
+    background: #f8961d;border: 0;border-radius: 0;padding: 10px;color: #fff;text-decoration: none;
+}
+
+
+.iletisim-cont{
+    padding-top: 5%;
+    padding-right: 50%;
+
+}
+
+.adrs-card{
+    margin-left: 700px;
+}
+
+.card-link{
+    text-decoration: none;
+}
