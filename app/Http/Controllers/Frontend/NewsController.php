@@ -19,9 +19,9 @@ class NewsController extends Controller
 
     public function detail($link)
     {
-        $newsArticles = News::where('link',$link)->first();
+        $article = News::where('link',$link)->first();
 
-        return view('frontend.haberler-detayler', compact('newsArticles'));
+        return view('frontend.haberler-detayler', compact('article'));
     }
 
 }

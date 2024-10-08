@@ -6,7 +6,7 @@
     <div class="row">
         @foreach($newsArticles as $article)
             <div class="col-md-4">
-                <a href="haberler-detayler/{{$article->link}}">
+                <a href="haber/{{$article->link}}">
                 <div class="card card-body h-70 border-info">
                     <img src="{{ $article->image }}" alt="{{ $article->title }}">
                     <hr>

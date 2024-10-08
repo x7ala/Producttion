@@ -9,7 +9,7 @@
             {{ __('Hakkımızda') }}
         </h2>
 
-        <a class="btn btn-success" href="{{url('admin-abouts/create')}}">Hakkımızda Ekle</a>
+     <!--   <a class="btn btn-success" href="{{url('admin-abouts/create')}}">Hakkımızda Ekle</a> -->
     </x-slot>
 
     <div class="py-12">
@@ -55,7 +55,7 @@
                                     <td colspan="4" class="text-center">No records found</td>
                                 </tr>
                             @endif
-                                            
+
                                         </tbody>
                                     </table>
 

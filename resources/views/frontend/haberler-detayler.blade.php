@@ -5,7 +5,7 @@
         <div class="mt-5 col-lg-12">
             <h1 style="margin-right: 50px;">{{$article->title}}</h1>
                 <img src="{{url($article->image)}}" alt="Thumbnail" style="width: 500px;">
-            <p class="mt-3">{!! $article->summary !!}</p>
+            <p class="mt-3">{!! $article->content !!}</p>
         </div>
     </div>
 </div>

@@ -48,15 +48,15 @@ class AboutController extends Controller
                   $s = trim($s, '-');
                   $link = $s;
                   /*Seo Url*/
-        
-        
+
+
                 DB::table('about_us')->insert([
                     'prg' => $request->input('prg'),
                     'id' => $request->input('id'),
                     'created_at' => NOW(),
                     'updated_at' => NOW()
                 ]);
-        
+
                 return redirect('admin-abouts');
     }
 
@@ -107,10 +107,10 @@ class AboutController extends Controller
 
         DB::table('about_us')
         ->where('id', $id)
-        ->update(['prg' => $request->input('prg')]);
-        
+        ->update(['prg' => $request->input('prg'),'updated_at' => NOW()]);
 
-      return redirect('admin-abouts');
+
+      return redirect('admin-abouts/edit/3');
     }
 
     /**
@@ -119,8 +119,8 @@ class AboutController extends Controller
     public function destroy(string $id)
     {
         //
-        DB::table('about_us')->where('id',$id)->delete();
+        //DB::table('about_us')->where('id',$id)->delete();
 
-        return redirect('admin-abouts');
+        //return redirect('admin-abouts');
     }
 }

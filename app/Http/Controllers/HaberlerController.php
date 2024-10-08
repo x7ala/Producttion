@@ -65,8 +65,13 @@ class HaberlerController extends Controller
 
 
     /**
-     * Show the form for editing the specified resource.
+     * Display the specified resource.
      */
+    public function show(string $id)
+    {
+        //
+    }
+
     public function edit(string $id)
     {
         $news = DB::table('news')->where('id',$id)->first();
